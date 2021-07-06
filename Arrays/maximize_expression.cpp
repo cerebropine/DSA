@@ -42,7 +42,7 @@ int main()
     
     vector<lli> arr;
     lli  temp;
-    while ( cin>>temp )
+    while ( cin>>temp && temp != -9999)
     {
         arr.push_back(temp);
     }
